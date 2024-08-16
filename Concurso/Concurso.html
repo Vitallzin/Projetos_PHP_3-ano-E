@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="j.js"></script>
+</head>
+<body>
+    <h1>Senac</h1>
+    <h2>Seja bem vindo ao SENAC! Para começar, preencha o formulário abaixo</h2>
+
+<div>
+    <form action="Concurso.php" method="post"><!-- -->
+    <label for="nomecompleto">Nome Completo:</label><!--Nome Completo -->
+    <input type="text" name="nomecompleto" placeholder="Digite seu nome"required>
+    <br><br>
+
+    <label for="DataNasc">Data De Nascimento:</label><!-- Data De Nasciemnto -->
+    <input type="date" name="DataNasc" required>
+
+    <label for="nacionalidade">Nacionalidade:</label><!--Nacionalidade -->
+    <input type="text" name="nacionalidade" placeholder="Brasileiro/Português..."required>
+    <br><br>
+
+    <label for="Sexo">Sexo:</label><!-- Sekeção do sexo -->
+    <select id="Sexo" name="Sexo" required>
+        <option value="" disabled selected>Selecione o seu sexo</option>
+        <option value="Maculino">Maculino</option>
+        <option value="Feminio">Feminio</option>
+        <option value="Outro">Outro</option>
+    </select>
+    
+    <label for="outro-sexo">Outro:</label><!-- no caso de outro genero-->
+    <input type="text" id="outro-sexo" name="outro-sexo" placeholder="Outro gênero">
+    <br><br>
+
+
+    <label for="numeroRG">Número RG:</label><!--Numero rg -->
+    <input type="text" name="nomecompleto" placeholder="Seu RG"required>
+
+     <!-- Campo para CPF -->
+     <label for="cpf">Número do CPF:</label>
+     <input type="text" id="cpf" name="cpf" placeholder="Digite o número do CPF" required>
+     <br><br>
+
+
+     <p>Endereço</p>
+       <!-- Campo para CEP -->
+       <label for="cep">CEP:</label>
+       <input type="text" id="cep" name="cep" placeholder="Digite o CEP" onblur="buscarEndereco()" required>
+       <br><br>
+
+       <!-- Campo para Logradouro -->
+       <label for="logradouro">Logradouro:</label>
+       <input type="text" id="logradouro" name="logradouro" placeholder="Logradouro" required>
+       
+
+       <!-- Campo para Número -->
+       <label for="numero">Número:</label>
+       <input type="text" id="numero" name="numero" placeholder="Número" required>
+       <br><br>
+
+       <!-- Campo para Complemento -->
+       <label for="complemento">Complemento:</label>
+       <input type="text" id="complemento" name="complemento" placeholder="Complemento">
+       
+
+       <!-- Campo para Bairro -->
+       <label for="bairro">Bairro:</label>
+       <input type="text" id="bairro" name="bairro" placeholder="Bairro" required>
+       <br><br>
+
+       <!-- Campo para Cidade -->
+       <label for="cidade">Cidade:</label>
+       <input type="text" id="cidade" name="cidade" placeholder="Cidade" required>
+       
+
+       <!-- Campo para Estado -->
+       <label for="estado">Estado:</label>
+       <input type="text" id="estado" name="estado" placeholder="Estado" required>
+       <br><br>
+
+       <p>Contato:</p>
+
+       <label for="telefone">Telefone:</label>
+       <input type="text" id="telefone" name="telefone" placeholder="Telefone" required>
+
+       <label for="e-mail">E-mail:</label>
+       <input type="email" id="email" name="email" placeholder="Seu e-mail">
+
+       <button type="submit">Enviar</button>
+
+    </form>
+
+    
+
+</div>
+    
+    
+    
+    
+    
+    
+ 
+
+
+    
+</body>
+</html>
