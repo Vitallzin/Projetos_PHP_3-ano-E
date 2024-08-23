@@ -1,0 +1,9 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+button.theme-toggle {
+    background-color: #333333;
+    color: #ffffff;
+}
