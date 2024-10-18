@@ -27,7 +27,7 @@ die(mysqli_error(mysql: $conn));
 if ($query){
     echo"<center>";
     echo "<h1>Registro inserido com sucesso!</h1></br>";
-    echo "<a href='index.php'><button tittle = 'Home Page'>Voltar</button></a>";
+    echo "<a href='index.html'><button tittle = 'Home Page'>Voltar</button></a>";
     echo "</center>" ;
 } 
 else {
