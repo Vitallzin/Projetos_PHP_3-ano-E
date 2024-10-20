@@ -1,0 +1,42 @@
+
+.a1{
+    position: absolute;
+    left: 55%;
+    top: 60%;
+}
+.a2{
+    position: absolute;
+    left: 35%;
+    top: 60%;
+}
+
+a {
+    background-color: blue; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border: none; /* Sem borda */
+    border-radius: 25px; /* Bordas arredondadas */
+    padding: 15px 30px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    transition: background-color 0.3s; /* Efeito de transição */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block
+   
+    
+  }
+ img{
+    width: 300px;
+    height: 250px;
+ 
+ }
+.img1{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+}
+.img2{
+    position: absolute;
+    left: 30%;
+    top: 30%;
+}

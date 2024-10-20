@@ -1,0 +1,33 @@
+
+body{
+    text-align: center;
+}
+button{
+    background-color: blue; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border: none; /* Sem borda */
+    border-radius: 25px; /* Bordas arredondadas */
+    padding: 15px 30px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    transition: background-color 0.3s; /* Efeito de transição */
+    position: absolute;
+    left: 50%;
+    top: 58%;
+}
+label {
+    width: 400px; /* Defina uma largura fixa */
+    font-weight: bold; /* Deixe o texto em negrito */
+}
+
+input {
+    width: 400px; /* Mesma largura que o label */
+    padding: 8px; /* Espaçamento interno */
+    border: 1px solid #ccc; /* Borda padrão */
+    border-radius: 8px; /* Bordas arredondadas */
+}
+.position{
+    position: absolute;
+    left: 44%;
+    top: 58%;
+}
