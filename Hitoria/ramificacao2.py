@@ -278,8 +278,27 @@ while True:
 
                     #final macabro
                     if escoolha33 == 1:
-                        pass
+                        texto_normal("\nVocê volta para o corredor da saída, encontra a porta e quebra o cadeado, mas antes de abrir a porta você escuta um grito."),pausa(" ")
+                        texto_rapida("\n AAAAAAAAAAAHHHHHH"),pausa("  "),texto_normal("Você escuta um grito familiar vindo da ala cirúrgica"),pausa(" ")
+                        texto_lento("\nO que você vai fazer?"),pausa(" "),print()
+                        print("\n1. Escapar\n2. Tentar descobrir a origem do grito")
+                        escolha_final = int(input("> "))
+                        
+                        #final onde ele vai fugir
+                        if escolha_final == 1:
+                            texto_normal("\n")
+                            texto_normal("\n")
+                            texto_normal("\n")
+                            texto_normal("\n")
+                            texto_normal("\n")
+                        
+                        #final onde ele descobre algo assustador
+                        else:
+                            texto_normal("\n")
+                            texto_normal("\n")
+                            texto_normal("\n")
+                            texto_normal("\n")
                     #final diferente o jogador vai enfretar, esquivar ou voltar
                     else:
                         pass
-                
+               
